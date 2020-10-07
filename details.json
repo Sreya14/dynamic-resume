@@ -1,0 +1,47 @@
+{
+	"details":{
+		"name":"Sreya",
+		"image":"./profile.jpg",
+		"email":"potlurisreya@gmail.com",
+		"number":"+91-9704439445",
+		"address":"Gudivada"
+	},
+	"careerobjective":{
+		"information":"Work for an organization which provides me the opportunity to improve my skills and knowledge to growth along with the organization objective."
+	},
+	"educationalDetails":[
+		{
+			"institute":"Gudlavalleru Engineering College",
+			"degree":"Btech",
+			"GraduationYear":"2022",
+			"cgpa":"9.47"
+		},
+		{
+			"institute":"Narayana",
+			"degree":"Intermediate",
+			"GraduationYear":"2018",
+			"cgpa":"94.7"
+		},
+		{
+			"institute":"Viswabharati",
+			"degree":"School",
+			"GraduationYear":"2016",
+			"cgpa":"93"
+		}
+	],
+	"techincalSkills":[
+		{
+			"title":"Programming languages",
+			"info":["c","java","python"]
+		},
+		{
+			"title":"Databases",
+			"info":["sql","mysql","MongoDB"]
+		},
+		{
+			"title":"Operating systems",
+			"info":["Windows","Linus"]
+		}
+		
+	]		
+}

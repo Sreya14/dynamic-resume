@@ -1,0 +1,121 @@
+
+@media screen and (min-width:769px) and (max-width:2000px){
+	.child1{
+		border:2px solid #ddd;
+		padding: 1%;
+		margin:1%;
+		width:30%;
+		text-align:center;
+		border-radius:5%;
+	}
+	img{
+		width: 80%;
+		border:2px solid black;
+		border-radius: 50%;
+		/*align-items:center; this propery
+		 will make all elementes inside the block to center*/
+		/* Down three lines are used to adjust only image to center*/
+		display:block;
+		margin-left: auto;
+		margin-right: auto;
+		box-shadow: 3px 4px 5px black;
+	}
+	.child2{
+		border:2px solid #ddd;
+		padding: 1%;
+		margin:1%;
+		width: :65%;
+		font-size: 25px;
+		border-radius: 5%;
+	}
+	.parent{
+		display:flex;
+		flex-direction: :row;
+		border: 2px solid #ddd;
+		padding:1%;
+		margin:1%;
+	}
+}
+/* Mobile */
+@media only screen and (min-width:300px) and (max-width:480px){
+	.child1{
+		border:2px solid #ddd;
+		padding: 1%;
+		margin:1%;
+		width:94%;
+		text-align:center;
+		border-radius:5%;
+
+	}
+	img{
+		width: 80%;
+		border:2px solid black;
+		border-radius: 50%;
+		align-items:center;
+		display:block;
+		margin-left: auto;
+		margin-right: auto;
+		box-shadow: 3px 4px 5px black;
+	}
+	.child2{
+		border:2px solid #ddd;
+		padding: 1%;
+		margin:1%;
+		width: :94%;
+		font-size: 25px;
+		border-radius: 5%;
+
+		overflow-x: auto;
+		/* overflow-x is used to scroll 
+		when table is overflow out of box  */
+	}
+	.parent{
+		display:flex;
+		flex-direction: column;
+		padding: 1%;
+		margin:1%;
+
+	}
+	
+}
+@media only screen and (min-width:481px) and (max-width:768px){
+	.child1{
+		border:2px solid #ddd;
+		padding: 1%;
+		margin:1%;
+		width:40%;
+		text-align:center;
+		border-radius:5%;
+
+	}
+	img{
+		width: 80%;
+		border:2px solid black;
+		border-radius: 50%;
+		align-items:center;
+		display:block;
+		margin-left: auto;
+		margin-right: auto;
+		box-shadow: 3px 4px 5px black;
+	}
+	.child2{
+		border:2px solid #ddd;
+		padding: 1%;
+		margin:1%;
+		width: :46%;
+		font-size: 25px;
+		border-radius: 5%;
+
+		overflow-x: auto;
+		/* overflow-x is used to scroll 
+		when table is overflow out of box  */
+	}
+	.parent{
+		display:flex;
+		flex-direction: row;
+		padding: 1%;
+		margin:1%;
+
+	}
+	
+}
